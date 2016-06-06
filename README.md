@@ -7,12 +7,10 @@ in MATLAB.
 ## Installation
 
 ### Data 
-
 I use the MNIST from:
 https://github.com/y0ast/VAE-Torch/tree/master/datasets.
 
 ### Toolbox
-
 Please install my fork of
 [*MatConvNet*](https://github.com/peiyunh/matconvnet), where I
 implemented some new layers, including:
@@ -49,3 +47,8 @@ which are:
   image.
 - `walk_demo.m`: randomly sample a list of images, and compare the
   morphing process done in both image space and latent space.
+
+### Write up 
+Refer to their original paper or my
+[writeup](https://github.com/peiyunh/mat-vae/blob/master/writeup.pdf)
+for how VAE works under the hood.
