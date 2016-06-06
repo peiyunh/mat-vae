@@ -7,10 +7,12 @@ in MATLAB.
 ## Installation
 
 ### Data 
+
 I use the MNIST from:
 https://github.com/y0ast/VAE-Torch/tree/master/datasets.
 
 ### Toolbox
+
 Please install my fork of
 [*MatConvNet*](https://github.com/peiyunh/matconvnet), where I
 implemented some new layers, including:
@@ -27,6 +29,7 @@ implemented some new layers, including:
 ## Usage
 
 ### Training
+
 For *training*, please see `train_script.m` on how I trained models. I
 implemented four stochastic gradient descent algorithms:
 
@@ -36,6 +39,7 @@ implemented four stochastic gradient descent algorithms:
 - RMSPROP
 
 ### Demo
+
 For *demo*, I have four demo scripts for visualization under `demo/`,
 which are: 
 
@@ -48,7 +52,8 @@ which are:
 - `walk_demo.m`: randomly sample a list of images, and compare the
   morphing process done in both image space and latent space.
 
-### Write up 
-Refer to their original paper or my
-[writeup](https://github.com/peiyunh/mat-vae/blob/master/writeup.pdf)
-for how VAE works under the hood.
+### More
+
+To learn about how VAE works under the hood, refer to
+[the original paper](https://arxiv.org/pdf/1312.6114v10.pdf) or my
+[writeup](https://github.com/peiyunh/mat-vae/blob/master/writeup.pdf).
