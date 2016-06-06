@@ -13,8 +13,7 @@ https://github.com/y0ast/VAE-Torch/tree/master/datasets.
 
 *Toolbox*: 
 
-Please install [*MatConvNet*](https://github.com/vlfeat/matconvnet). I
-used 1.0-beta20.
+Please install [*MatConvNet*](https://github.com/vlfeat/matconvnet). 
 
 ## Usage
 
