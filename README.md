@@ -13,7 +13,7 @@ https://github.com/y0ast/VAE-Torch/tree/master/datasets.
 
 *Toolbox*: 
 
-Please install
+Please install my fork of
 [*MatConvNet*](https://github.com/peiyunh/matconvnet). Inside my fork,
 I implemented some new layers, including:
 
