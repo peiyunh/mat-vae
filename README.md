@@ -14,8 +14,8 @@ https://github.com/y0ast/VAE-Torch/tree/master/datasets.
 *Toolbox*: 
 
 Please install my fork of
-[*MatConvNet*](https://github.com/peiyunh/matconvnet). Inside my fork,
-I implemented some new layers, including:
+[*MatConvNet*](https://github.com/peiyunh/matconvnet), where I
+implemented some new layers, including:
 
 - `KLD.m`: handles forward and backward propagation of KL Divergence 
 - `NLL.m`: handles forward and backward propagation of Negative
