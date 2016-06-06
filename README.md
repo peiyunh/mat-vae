@@ -13,7 +13,18 @@ https://github.com/y0ast/VAE-Torch/tree/master/datasets.
 
 *Toolbox*: 
 
-Please install [*MatConvNet*](https://github.com/vlfeat/matconvnet). 
+Please install
+[*MatConvNet*](https://github.com/peiyunh/matconvnet). Inside my fork,
+I implemented some new layers, including:
+
+- `KLD.m`: handles forward and backward propagation of KL Divergence 
+- `NLL.m`: handles forward and backward propagation of Negative
+  Log-Likelihood (works for multi-variate Bernoulli distribution)
+- `LB.m`: combine KLD and NLL into a lower bound
+- `Sampler.m`: sampling operation
+- `Tanh.m`: tanh non-linearity 
+- `Split.m`: split one variable into multiple while keeping the same
+  spatial size
 
 ## Usage
 
