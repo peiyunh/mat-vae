@@ -6,12 +6,12 @@ in MATLAB.
 
 ## Installation
 
-*Data*: 
+### Data 
 
 I use the MNIST from:
 https://github.com/y0ast/VAE-Torch/tree/master/datasets.
 
-*Toolbox*: 
+### Toolbox
 
 Please install my fork of
 [*MatConvNet*](https://github.com/peiyunh/matconvnet), where I
@@ -28,6 +28,7 @@ implemented some new layers, including:
 
 ## Usage
 
+### Training
 For *training*, please see `train_script.m` on how I trained models. I
 implemented four stochastic gradient descent algorithms:
 
@@ -36,6 +37,7 @@ implemented four stochastic gradient descent algorithms:
 - ADAGRAD 
 - RMSPROP
 
+### Demo
 For *demo*, I have four demo scripts for visualization under `demo/`,
 which are: 
 
