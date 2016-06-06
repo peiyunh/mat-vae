@@ -32,11 +32,8 @@ For *training*, please see `train_script.m` on how I trained models. I
 implemented four stochastic gradient descent algorithms:
 
 - SGD with momentum 
-
 - ADAM
-
 - ADAGRAD 
-
 - RMSPROP
 
 For *demo*, I have four demo scripts for visualization under `demo/`,
@@ -44,12 +41,9 @@ which are:
 
 - `manifold_demo.m`: visualize the manifold of a 2d latent space in
   image space.
-  
 - `sample_demo.m`: sample from latent space and visualize in image
   space.
-  
 - `reconstruct_demo.m`: visualize a reconstructed version of an input
   image.
-  
 - `walk_demo.m`: randomly sample a list of images, and compare the
   morphing process done in both image space and latent space.
